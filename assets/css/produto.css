@@ -26,11 +26,20 @@
     height: 1rem;
 }
 
+.brand p{
+    color: #323232;
+    opacity: 0.5;   
+}
+
+.about h2{
+    font-weight: 600;
+}
+
 .price-add{
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 .add{
@@ -38,4 +47,43 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+}
+
+.add img{
+    cursor: pointer
+}
+
+.price{
+    font-weight: 600;
+}
+
+.desc-prod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+ul li{
+    list-style-position: inside;
+}
+
+.desc-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+}
+
+.desc, .desc-prod ul li{
+    opacity: 0.7;
+}
+
+.add-to-shop{
+    padding: 1rem 2rem;
+    background-color: #FFB100;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
 }
