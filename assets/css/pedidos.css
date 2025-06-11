@@ -1,0 +1,109 @@
+.main, .pedido{
+    padding: 1.5rem;
+}
+
+.pedido{
+    border: solid 2px #eee;
+    border-radius: 24px;
+}
+
+.sec-name{
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn.right img{
+    border: solid 2px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+}
+
+.sec-name img{
+    width: 50px;
+    height: 50px;
+}
+
+.list{
+    padding-top: 1.5rem;
+}
+
+.status p{
+    font-weight: 600;
+    color: #FFB100;
+}
+
+.status{
+    padding:.5rem 1rem;
+    background-color: #FFFBEB;
+    width: fit-content;
+    border-radius: 24px;
+}
+
+.local{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.local img{
+    width: 1.5rem;
+}
+
+.local p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-pedido{
+    border-bottom: solid 2px #eee;
+}
+
+.qtd{
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: solid 2px #eee;
+}
+
+.fim{
+    padding: 1.5rem 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.add{
+    color: #D52B1E;
+    opacity: 40%;
+}
+
+a.add:hover{
+    opacity:1;
+}
+
+.status.p p{
+    color:white;
+}
+
+.status.p{
+    background-color:#5dc05b;
+}
+
+a.add.f{
+    opacity: 1;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+}
