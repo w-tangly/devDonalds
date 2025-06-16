@@ -42,7 +42,8 @@
 
         <div class="desc-prod">
             <div class="desc-type"><img src="./assets/imgs/chef-hat.png" alt="">
-                <p>Ingredientes</p></div>
+                <p>Ingredientes</p>
+            </div>
             <ul>
                 <li>Quatro hambúrgueres de carne bovina 100%</li>
                 <li>Alface americana</li>
@@ -54,9 +55,43 @@
             </ul>
         </div>
 
-            <a href="" class="add-to-shop">Adicionar a sacola</a>
+        <a id="add-to-shop" onclick="openNav()">Adicionar a sacola</a>
+
+        <div id="mySidepanel" class="sidepanel">
+            <div>
+                <div class="sidebar-row">
+                    <h2 class="desc-type">Sacola</h2>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <img src="./assets/imgs/Duplo Cheddar McMelt.png" alt="" class="first">
+                    <div class="sidebar-card-desc">
+                        <div class="burg-name">McOferta Média Big Mac</div>
+                        <p class="price">R$ 39.90</p>
+                        <div class="add">
+                            <img src="./assets/imgs/Stroke Icon Button.png" alt="">
+                            <p>1</p>
+                            <img src="./assets/imgs/Stroke Icon Button(1).png" alt="">
+                        </div>
+                    </div>
+                    <img src="./assets/imgs/Stroke Icon Button(2).png" alt="">
+                </div>
+            </div>
+
+            <div class="finalizacao">
+                <div class="final-txt">
+
+                </div>
+
+                <a href="" class="finalizar-pedido">Finalizar pedido</a>
+            </div>
+        </div>
 
     </section>
 </body>
+
+<script src="./assets/js/sidebar.js"></script>
+<!-- <script src="./assets/js/modal.js"></script> -->
 
 </html>

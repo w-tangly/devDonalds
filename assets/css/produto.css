@@ -1,4 +1,4 @@
-.main-prod{
+.main-prod {
     background-color: rgba(0, 0, 0, 0.08);
     display: flex;
     justify-content: center;
@@ -6,69 +6,69 @@
     height: 45vh;
 }
 
-.main{
+.main {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.brand{
+.brand {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: .5rem;
 }
 
-.brand img{
+.brand img {
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
 }
 
-.brand p{
+.brand p {
     color: #323232;
-    opacity: 0.5;   
+    opacity: 0.5;
 }
 
-.about h2{
+.about h2 {
     font-weight: 600;
 }
 
-.price-add{
+.price-add {
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.add{
+.add {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
 }
 
-.add img{
-    cursor: pointer
+.add img {
+    cursor: pointer;
 }
 
-.price{
+.price {
     font-weight: 600;
 }
 
-.desc-prod{
+.desc-prod {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: .5rem;
 }
 
-ul li{
+ul li {
     list-style-position: inside;
 }
 
-.desc-type{
+.desc-type {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,14 +76,136 @@ ul li{
     font-weight: 600;
 }
 
-.desc, .desc-prod ul li{
+.desc,
+.desc-prod ul li {
     opacity: 0.7;
 }
 
-.add-to-shop{
+#add-to-shop {
     padding: 1rem 2rem;
     background-color: #FFB100;
     text-align: center;
     color: white;
+    border-radius: 24px;
+}
+
+.
+
+/* MODAL */
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* SIDEBAR */
+
+.sidepanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepanel a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.sidebar-row{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.first{
+    max-width: 6rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.08);
     border-radius: 24px;
 }
